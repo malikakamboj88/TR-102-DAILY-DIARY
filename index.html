@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Training TR-102 - Daily Diary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #003366;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0;
+    }
+
+    th, td {
+      padding: 14px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #00509E;
+      color: white;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    .btn {
+      background-color: #0074D9;
+      color: white;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+      display:inline-block;
+    }
+
+    .btn:hover {
+      background-color: #005fa3;
+    }
+
+    /* ✅ Mobile Responsive Card-Style Table */
+    @media screen and (max-width: 600px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+      }
+
+      thead {
+        display: none; /* hide table header */
+      }
+
+      tr {
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 10px;
+        background: #fafafa;
+      }
+
+      td {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        border-bottom: none;
+      }
+
+      td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #003366;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Training TR-102</h1>
+    <p>By: Malika, URN-2302600</p>
+    <p>Guru Nanak Dev Engineering College</p>
+    <p>4 Week Training at Excellence Technology</p>
+  </header>
+
+  <div class="container">
+    <h2>Training Daily Diary</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Day</th>
+          <th>Daily Diary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Date">June 23, 2025</td>
+          <td data-label="Day">Day 1</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 1.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">June 24, 2025</td>
+          <td data-label="Day">Day 2</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 2.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">June 25, 2025</td>
+          <td data-label="Day">Day 3</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 3.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">June 26, 2025</td>
+          <td data-label="Day">Day 4</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 4.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">June 28, 2025</td>
+          <td data-label="Day">Day 5</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 5.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">June 30, 2025</td>
+          <td data-label="Day">Day 6</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 6.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 1, 2025</td>
+          <td data-label="Day">Day 7</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 7.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 2, 2025</td>
+          <td data-label="Day">Day 8</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 8.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 3, 2025</td>
+          <td data-label="Day">Day 9</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 9.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 4, 2025</td>
+          <td data-label="Day">Day 10</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 10.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 5, 2025</td>
+          <td data-label="Day">Day 11</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 11.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 8, 2025</td>
+          <td data-label="Day">Day 12</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 12.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 9, 2025</td>
+          <td data-label="Day">Day 13</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 13.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 10, 2025</td>
+          <td data-label="Day">Day 14</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 14.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 11, 2025</td>
+          <td data-label="Day">Day 15</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 15.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 12, 2025</td>
+          <td data-label="Day">Day 16</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 16.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 14, 2025</td>
+          <td data-label="Day">Day 17</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 17.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 15, 2025</td>
+          <td data-label="Day">Day 18</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 18.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 16, 2025</td>
+          <td data-label="Day">Day 19</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 19.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 17, 2025</td>
+          <td data-label="Day">Day 20</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 20.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 21, 2025</td>
+          <td data-label="Day">Day 21</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 21.pdf" target="_blank">View PDF</a></td>
+        </tr>
+        <tr>
+          <td data-label="Date">July 22, 2025</td>
+          <td data-label="Day">Day 22</td>
+          <td data-label="Daily Diary"><a class="btn" href="Pdfs/day 22.pdf" target="_blank">View PDF</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
